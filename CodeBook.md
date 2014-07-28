@@ -10,7 +10,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 ### DATA DESCRIPTION AND TRANSFORMATIONS
 Only the measurements, on the mean and standard deviation, were extracted for each variable, that is why 66 variables are included into tidy data set. Then the average of each variable was calculated taking the volunteer and activity. Finally, tidy data has 180 measurements in 68 variables.
 
----  with 3-axial raw signal 
+---  
 
 ### DESCRIPTION OF VARIABLES
 #### subject     
