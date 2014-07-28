@@ -98,17 +98,17 @@ Only the measurements, on the mean and standard deviation, were extracted for ea
 #### tbodygyrojerkmagStd 
 	Average of body angular velocity magnitude standard deviation in time, in order to obtain Jerk signals.
 #### fbodyaccMeanX       
-
+	Average of body triaxial acceleration signals average in frequency domain signals, using the X direction.
 #### fbodyaccMeanY       
-
+	Average of body triaxial acceleration signals average in frequency domain signals, using the Y direction.
 #### fbodyaccMeanZ       
-
+	Average of body triaxial acceleration signals average in frequency domain signals, using the Z direction.
 #### fbodyaccStdX        
-
+	Average of body triaxial acceleration signals standard deviation in frequency domain signals, using the X direction.
 #### fbodyaccStdY        
-
+	Average of body triaxial acceleration signals standard deviation in frequency domain signals, using the Y direction.
 #### fbodyaccStdZ        
-
+	Average of body triaxial acceleration signals standard deviation in frequency domain signals, using the Z direction.
 #### fbodyaccjerkMeanX   
 
 #### fbodyaccjerkMeanY   
