@@ -29,7 +29,7 @@ This section shows code lines to reading file from the web, unzip the file and c
 
 ---
 
-### PRELIMINARY WORK
+### FIVE STEPS TO DEVELOP THE PROJECT
 This sections shows the R code to develop the five points in the  project
 
 #### 1. Merge data sets - train and test
@@ -116,4 +116,39 @@ Mainly, symbols like - and () were eliminated from original variables names:
 	5       1 standing     0.2766288   -0.01656965    -0.1153619   -0.9981386
 	6       1 standing     0.2771988   -0.01009785    -0.1051373   -0.9973350
 
-#
+#### 5. Average of each variable for each activity and each subject
+	splitData<-split(ttMeanStdBD, f=list(ttMeanStdBD$subject,ttMeanStdBD$activity))
+	meanData<-t(sapply(splitData, function(x) colMeans(x[,-c(1,2)]) ))
+	
+	cols1to2<-matrix(unlist(strsplit(row.names(meanData),"[.]")), nrow(meanData), byrow=T)
+	colnames(cols1to2)<-colnames(ttMeanStdBD[,1:2])
+	
+	tidyData<-data.frame(cols1to2, meanData)
+	rownames(tidyData)<-NULL
+	
+	if(!file.exists("data")) dir.create("data")
+	write.csv(tidyData, "./data/tidyData.csv", row.names=FALSE)
+
+tidyData looks like:
+
+	> dim(tidyData)
+	[1] 180  68
+	
+	> head(tidyData[,1:6])
+	  subject activity tbodyaccMeanX tbodyaccMeanY tbodyaccMeanZ tbodyaccStdX
+	1       1  walking     0.2773308   -0.01738382    -0.1111481   -0.2837403
+	2       3  walking     0.2755675   -0.01717678    -0.1126749   -0.3603567
+	3       5  walking     0.2778423   -0.01728503    -0.1077418   -0.2940985
+	4       6  walking     0.2836589   -0.01689542    -0.1103032   -0.2965387
+	5       7  walking     0.2755930   -0.01865367    -0.1109122   -0.3272432
+	6       8  walking     0.2746863   -0.01866289    -0.1072521   -0.1736057
+
+### FIVE STEPS TO DEVELOP THE PROJECT
+In This sections, auxiliary variables are deleted.
+
+	rm(subject_train, train_y, train_X, subject_test, test_y, test_X, 
+	   testBD, trainBD, features, posMeanStd, activity, namesVar, splitData,
+	   meanData, cols1to2, fileUrl)
+
+
+
