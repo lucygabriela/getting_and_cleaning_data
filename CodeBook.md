@@ -18,29 +18,29 @@ Only the measurements, on the mean and standard deviation, were extracted for ea
 #### activity            
 	type of activity: laying, sitting, standing, walking, walking_downstairs or walking_upstairs.
 #### tbodyaccMeanX       
-	Average of mean body acceleration signals in time, using X raw signal.
+	Average of body acceleration signals average in time, using X raw signal.
 #### tbodyaccMeanY       
-	Average of mean body acceleration signals in time, using Y raw signal.
+	Average of body acceleration signals average in time, using Y raw signal.
 #### tbodyaccMeanZ       
-	Average of mean body acceleration signals in time, using Z raw signal.
+	Average of body acceleration signals average in time, using Z raw signal.
 #### tbodyaccStdX        
-	Average of standard deviation body acceleration signals in time, using X raw signal.
+	Average of body acceleration signals standard deviation in time, using X raw signal.
 #### tbodyaccStdY        
-	Average of standard deviation body acceleration signals in time, using Y raw signal.
+	Average of body acceleration signals standard deviation in time, using Y raw signal.
 #### tbodyaccStdZ        
-	Average of standard deviation body acceleration signals in time, using Z raw signal.
+	Average of body acceleration signals standard deviation in time, using Z raw signal.
 #### tgravityaccMeanX    
-	Average of mean body gravity signals in time, using X raw signal.
+	Average of body gravity signals average in time, using X raw signal.
 #### tgravityaccMeanY    
-	Average of mean body gravity signals in time, using Y raw signal.
+	Average of body gravity signals average in time, using Y raw signal.
 #### tgravityaccMeanZ    
-	Average of mean body gravity signals in time, using Z raw signal.
+	Average of body gravity signals average in time, using Z raw signal.
 #### tgravityaccStdX     
-	Average of standard deviation body gravity signals in time, using X raw signal.
+	Average of body gravity signals standard deviation in time, using X raw signal.
 #### tgravityaccStdY     
-	Average of standard deviation body gravity signals in time, using Y raw signal.
+	Average of body gravity signals standard deviation in time, using Y raw signal.
 #### tgravityaccStdZ     
-	Average of standard deviation body gravity signals in time, using Z raw signal.
+	Average of body gravity signals standard deviation in time, using Z raw signal.
 #### tbodyaccjerkMeanX   
 	Average of mean body linear acceleation in time to obtain Jerk signals, using X raw signal. 
 #### tbodyaccjerkMeanY   
