@@ -1,4 +1,4 @@
-# PROJECT - GETTING  AND CLEANING DATA
+## PROJECT - GETTING  AND CLEANING DATA
 
 ---
 
@@ -9,7 +9,6 @@ This section shows code lines to reading file from the web, unzip the file and c
 
 #### Deleting objects from Work Space
 	rm(list=ls()) 
-------
 
 #### Reading file from the web 
 
