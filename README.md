@@ -36,7 +36,9 @@ This sections shows the R code to develop the five points in the  project
 	trainBD <- cbind(subject=as.factor(subject_train[,1]), activity=as.factor(train_y[,1]), train_X)
 	testBD  <- cbind(subject=as.factor(subject_test[,1]), activity=as.factor(test_y[,1]), test_X)
 	trainTestBD <-rbind(trainBD,testBD)
+
 We can see some features:
+
 	dim(trainTestBD)
 	  10299   563
 
