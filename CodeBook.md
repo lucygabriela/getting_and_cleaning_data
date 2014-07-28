@@ -142,9 +142,10 @@ Only the measurements, on the mean and standard deviation, were extracted for ea
 #### fbodyaccjerkmagStd  
 	Average of body linear acceleration magnitude standard deviation in frequency domain signals, in order to obtain Jerk signals. 
 #### fbodygyromagMean    
-
+	Average of body angular velocity magnitude average in frequency domain signals.
 #### fbodygyromagStd     
-
+	Average of body angular velocity magnitude standard deviation in frequency domain signals.
 #### fbodygyrojerkmagMean
-
+	Average of body angular velocity magnitude average  in frequency domain signals, in order to obtain Jerk signals.
 #### fbodygyrojerkmagStd 
+	Average of body angular velocity magnitude standard deviation  in frequency domain signals, in order to obtain Jerk signals.
