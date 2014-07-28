@@ -1,4 +1,4 @@
-## PROJECT - GETTING  AND CLEANING DATA
+## COURSE PROJECT 
 
 ---
 
@@ -143,7 +143,7 @@ tidyData looks like:
 	5       7  walking     0.2755930   -0.01865367    -0.1109122   -0.3272432
 	6       8  walking     0.2746863   -0.01866289    -0.1072521   -0.1736057
 
-### FIVE STEPS TO DEVELOP THE PROJECT
+### COMPLEMENTARY R CODE
 In This sections, auxiliary variables are deleted.
 
 	rm(subject_train, train_y, train_X, subject_test, test_y, test_X, 
