@@ -110,37 +110,37 @@ Only the measurements, on the mean and standard deviation, were extracted for ea
 #### fbodyaccStdZ        
 	Average of body triaxial acceleration signals standard deviation in frequency domain signals, using the Z direction.
 #### fbodyaccjerkMeanX   
-
+	Average of body triaxial acceleration signals average in frequency domain signals to obtain Jerk signals, in the X direction. 
 #### fbodyaccjerkMeanY   
-
+	Average of body triaxial acceleration signals average in frequency domain signals to obtain Jerk signals, in the Y direction. 
 #### fbodyaccjerkMeanZ   
-
+	Average of body triaxial acceleration signals average in frequency domain signals to obtain Jerk signals, in the Z direction. 
 #### fbodyaccjerkStdX    
-
+	Average of body triaxial acceleration signals standard deviation in frequency domain signals to obtain Jerk signals, in the X direction. 
 #### fbodyaccjerkStdY    
-
+	Average of body triaxial acceleration signals standard deviation in frequency domain signals to obtain Jerk signals, in the Y direction. 
 #### fbodyaccjerkStdZ    
-
+	Average of body triaxial acceleration signals standard deviation in frequency domain signals to obtain Jerk signals, in the Z direction. 
 #### fbodygyroMeanX      
-
+	Average of body angular velocity average in frequency domain signals, using the X direction. 
 #### fbodygyroMeanY      
-
+	Average of body angular velocity average in frequency domain signals, using the Y direction.
 #### fbodygyroMeanZ      
-
+	Average of body angular velocity average in frequency domain signals, using the Z direction.
 #### fbodygyroStdX       
-
+	Average of body angular velocity standar deviation in frequency domain signals, using the X direction.
 #### fbodygyroStdY       
-
+	Average of body angular velocity standar deviation in frequency domain signals, using the X direction.
 #### fbodygyroStdZ       
-
+	Average of body angular velocity standar deviation in frequency domain signals, using the X direction.
 #### fbodyaccmagMean     
-
+	Average of body linear acceleration magnitude average in frequency domain signals. 
 #### fbodyaccmagStd      
-
+	Average of body linear acceleration magnitude average in frequency domain signals.
 #### fbodyaccjerkmagMean 
-
+	Average of body linear acceleration magnitude average in frequency domain signals, in order to obtain Jerk signals. 
 #### fbodyaccjerkmagStd  
-
+	Average of body linear acceleration magnitude standard deviation in frequency domain signals, in order to obtain Jerk signals. 
 #### fbodygyromagMean    
 
 #### fbodygyromagStd     
