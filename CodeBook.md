@@ -42,17 +42,18 @@ Only the measurements, on the mean and standard deviation, were extracted for ea
 #### tgravityaccStdZ     
 	Average of body gravity signals standard deviation in time, using Z raw signal.
 #### tbodyaccjerkMeanX   
-	Average of mean body linear acceleation in time to obtain Jerk signals, using X raw signal. 
+	Average of body linear acceleation average in time to obtain Jerk signals, using X raw signal. 
 #### tbodyaccjerkMeanY   
-	Average of mean body linear acceleation in time to obtain Jerk signals, using Y raw signal. 
+	Average of body linear acceleation average in time to obtain Jerk signals, using Y raw signal. 
 #### tbodyaccjerkMeanZ   
-	Average of mean body linear acceleation in time to obtain Jerk signals, using Z raw signal. 
+	Average of body linear acceleation average in time to obtain Jerk signals, using Z raw signal. 
 #### tbodyaccjerkStdX    
-	Average of standard deviation body linear acceleation in time to obtain Jerk signals, using X raw signal. 
+	Average of body linear acceleation standard deviation in time to obtain Jerk signals, using X raw signal. 
 #### tbodyaccjerkStdY    
-	Average of standard deviation body linear acceleation in time to obtain Jerk signals, using Y raw signal. 
+	Average of body linear acceleation standard deviation in time to obtain Jerk signals, using Y raw signal. 
 #### tbodyaccjerkStdZ    
-	Average of standard deviation body linear acceleation in time to obtain Jerk signals, using Z raw signal. 
+	Average of body linear acceleation standard deviation in time to obtain Jerk signals, using Z raw signal. 
+
 #### tbodygyroMeanX      
 	Average of mean body angular velocity  in time to obtain Jerk signals, using X raw signal. 
 #### tbodygyroMeanY      
